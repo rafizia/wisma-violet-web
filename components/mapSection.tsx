@@ -5,7 +5,7 @@ export default function MapSection() {
     <section id="lokasi" className="py-7 bg-white">
       <div className="mx-10 md:mx-15">
         <h2 className="text-4xl font-bold text-violet-500 mb-6">Lokasi Kos</h2>
-        <p className="text-[21px] font-medium text-gray-700 mb-8">
+        <p className="text-lg md:text-[21px] font-medium text-gray-700 mb-8">
           Jl. Kedoya Raya No.56 RT 04/03, Pondok Cina, Kecamatan Beji, Kota
           Depok, Jawa Barat 16424
         </p>
@@ -20,7 +20,7 @@ export default function MapSection() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <div className="flex flex-col space-y-5 text-xl text-gray-700 font-medium">
+          <div className="flex flex-col space-y-5 text-lg md:text-[21px] text-gray-700 font-medium">
             <h3>
               <Hospital className="inline-block mr-2" /> 0.25 km dari Rumah
               Sakit Bunda Margonda

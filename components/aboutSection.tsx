@@ -13,7 +13,7 @@ export default function AboutSection() {
           allowFullScreen
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         ></iframe>
-        <p className="text-gray-700 leading-relaxed text-[21px] font-medium">
+        <p className="text-gray-700 leading-relaxed text-lg md:text-[21px] font-medium">
           Wisma Violet adalah kos khusus putri yang berlokasi strategis dekat
           dengan kampus, pusat perbelanjaan, dan fasilitas umum. Wisma Violet
           dilengkapi dengan fasilitas lengkap seperti kamar ber-AC, WiFi cepat,

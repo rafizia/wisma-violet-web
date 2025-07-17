@@ -26,7 +26,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold text-violet-500 mb-4">
             Wisma Violet
           </h1>
-          <p className="text-[21px] text-gray-700 font-medium">
+          <p className="text-lg md:text-[21px] text-gray-700 font-medium">
             Tempat tinggal nyaman, aman, dan strategis untuk mahasiswi dan
             karyawati.
           </p>

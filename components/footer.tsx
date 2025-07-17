@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="px-15 text-sm text-gray-300 mt-8">
+      <div className="px-10 md:px-15 text-sm text-gray-300 mt-8">
         &copy; {new Date().getFullYear()} Wisma Violet. All rights reserved.
       </div>
     </footer>
