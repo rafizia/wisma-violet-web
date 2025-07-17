@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const images = [
   "/gallery/IMG_20231024_123248081.MP.jpg",
   "/gallery/IMG_20231024_120442392.jpg",
@@ -10,15 +12,18 @@ const images = [
 export default function GallerySection() {
   return (
     <section id="galeri" className="py-10 bg-white">
-      <div className="mx-auto px-15">
+      <div className="mx-auto px-10 md:px-15">
         <h2 className="text-4xl font-bold text-violet-500 mb-10">Galeri Kos</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {images.map((src, i) => (
-            <img
+            <Image
               key={i}
               src={src}
               alt={`Foto ${i + 1}`}
+              loading="lazy"
               className="w-full h-full object-cover rounded shadow hover:scale-105 hover:z-10 transition duration-300"
+              width={500}
+              height={500}
             />
           ))}
         </div>

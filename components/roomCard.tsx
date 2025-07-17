@@ -2,6 +2,7 @@
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import { ChevronRight, ChevronLeft } from "lucide-react";
+import Image from "next/image";
 
 type Room = {
   name: string;
@@ -36,10 +37,12 @@ export default function RoomCard({ room }: { room: Room }) {
         <div ref={sliderRef} className="keen-slider rounded overflow-hidden">
           {room.images.map((src, i) => (
             <div key={i} className="keen-slider__slide">
-              <img
+              <Image
                 src={src}
                 alt={`${room.name} ${i + 1}`}
                 className="w-full h-48 object-cover"
+                width={500}
+                height={300}
               />
             </div>
           ))}

@@ -1,9 +1,10 @@
 import { MapPin, Phone, Mail } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <footer className="bg-violet-500 text-white py-10 pt-15">
-      <div className="px-15 grid grid-cols-1 sm:grid-cols-3 gap-8">
+      <div className="px-10 md:px-15 grid grid-cols-1 sm:grid-cols-3 gap-8">
         {/* Nama & Deskripsi Kos */}
         <div>
           <h3 className="text-xl font-semibold mb-2">Wisma Violet</h3>
@@ -18,29 +19,29 @@ export default function Footer() {
           <h4 className="text-xl font-semibold mb-2">Navigasi</h4>
           <ul className="text-sm space-y-2">
             <li>
-              <a href="/" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Beranda
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#tentang" className="hover:underline">
+              <Link href="#tentang" className="hover:underline">
                 Tentang
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#fasilitas" className="hover:underline">
+              <Link href="#fasilitas" className="hover:underline">
                 Fasilitas
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#kamar" className="hover:underline">
+              <Link href="#kamar" className="hover:underline">
                 Kamar
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#kontak" className="hover:underline">
+              <Link href="#kontak" className="hover:underline">
                 Kontak
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
