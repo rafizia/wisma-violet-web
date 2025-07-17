@@ -1,7 +1,7 @@
 export default function AboutSection() {
   return (
     <section id="tentang" className="py-10 bg-white">
-      <div className="px-15">
+      <div className="px-10 md:px-15">
         <h2 className="text-4xl font-bold text-violet-500 mb-6">
           Tentang Wisma Violet
         </h2>
@@ -14,10 +14,12 @@ export default function AboutSection() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         ></iframe>
         <p className="text-gray-700 leading-relaxed text-[21px] font-medium">
-          Wisma Violet adalah kos khusus putri yang berlokasi strategis di dekat
-          Kampus UI, Depok. Menyediakan fasilitas lengkap, lingkungan tenang,
-          serta keamanan 24 jam dengan akses mudah ke transportasi dan tempat
-          makan.
+          Wisma Violet adalah kos khusus putri yang berlokasi strategis dekat
+          dengan kampus, pusat perbelanjaan, dan fasilitas umum. Wisma Violet
+          dilengkapi dengan fasilitas lengkap seperti kamar ber-AC, WiFi cepat,
+          dapur bersama, kamar mandi dalam, serta area parkir yang luas.
+          Lingkungan kos tenang dan mendukung suasana belajar serta istirahat
+          yang optimal.
         </p>
       </div>
     </section>

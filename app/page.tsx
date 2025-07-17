@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "@/components/header";
 import AboutSection from "@/components/aboutSection";
 import FacilitySection from "@/components/facilitiesSection";
@@ -7,16 +6,19 @@ import GallerySection from "@/components/gallerySection";
 import MapSection from "@/components/mapSection";
 import ContactSection from "@/components/contactSection";
 import Footer from "@/components/footer";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
       <Header />
       <div className="mt-10">
-        <img
+        <Image
           src="/cover/violet.png"
           alt="Wisma Violet Cover"
           className="w-full h-auto object-cover"
+          width={1920}
+          height={1080}
         />
       </div>
       <section className="bg-white py-10 px-10 md:px-15">

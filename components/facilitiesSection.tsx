@@ -25,7 +25,7 @@ const facilities = [
 export default function FacilitySection() {
   return (
     <section id="fasilitas" className="py-10 bg-white">
-      <div className="px-15">
+      <div className="px-10 md:px-15 mx-auto">
         <h2 className="text-4xl font-bold text-violet-500 mb-10">Fasilitas</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6">
           {facilities.map((item, index) => (

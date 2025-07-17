@@ -30,7 +30,7 @@ const rooms = [
       "/rooms/regular_B/4e27bad9-c32.jpg",
       "/rooms/regular_B/798b3489-3eb.jpg",
     ],
-    features: ["Kasur queen", "Meja besar", "Kamar mandi dalam", "AC", "WiFi"],
+    features: ["Kasur Single", "Meja", "Kamar Mandi Dalam", "Lemari", "AC"],
   },
   {
     name: "Regular Single C",
@@ -42,21 +42,14 @@ const rooms = [
       "/rooms/regular_C/ed41b07a-9a9.jpg",
       "/rooms/regular_C/636de9b6-2c1.jpg",
     ],
-    features: [
-      "Kasur king",
-      "Lemari besar",
-      "Kamar mandi dalam",
-      "AC",
-      "Balkon",
-      "WiFi",
-    ],
+    features: ["Kasur Single", "Meja", "Kamar Mandi Dalam", "Lemari", "Shower"],
   },
 ];
 
 export default function RoomSection() {
   return (
     <section id="kamar" className="py-10 bg-white">
-      <div className="px-15 mx-auto">
+      <div className="px-10 md:px-15 mx-auto">
         <h2 className="text-4xl font-bold text-violet-500 mb-10">
           Tipe Kamar & Harga
         </h2>
