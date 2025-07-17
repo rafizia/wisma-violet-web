@@ -29,7 +29,7 @@ export default function GallerySection() {
         </div>
         <div className="mt-10 text-center">
           <a
-            href="#kamar"
+            href="#galeri"
             className="bg-violet-500 text-white px-6 py-5 rounded-lg w-full md:w-auto inline-block hover:bg-violet-700 transition duration-300 text-lg font-semibold"
           >
             Lihat Gambar Lainnya
